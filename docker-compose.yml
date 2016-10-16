@@ -9,3 +9,6 @@ services:
       - db
   db:
     image: mysql:latest
+    environment:
+      - MYSQL_ROOT_PASSWORD=my-secret-pw
+      - MYSQL_DATABASE=mysql
