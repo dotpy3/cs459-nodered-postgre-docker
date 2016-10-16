@@ -11,3 +11,5 @@ services:
     image: postgres:latest
     environment:
       - POSTGRES_DB=postgre
+      - POSTGRES_USER=root
+      - POSTGRES_PASSWORD=root
